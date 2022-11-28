@@ -207,7 +207,7 @@ The command removes all the Kubernetes components associated with the chart and 
 
 | Name                                                               | Description                                                                                              | Value              |
 | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- | ------------------ |
-| `applicationSet.enabled`                                           | Enable ApplicationSet controller                                                                         | `true`             |
+| `applicationSet.enabled`                                           | Enable ApplicationSet controller                                                                         | `false`            |
 | `applicationSet.replicaCount`                                      | The number of ApplicationSet controller pods to run                                                      | `1`                |
 | `applicationSet.command`                                           | Override default container command (useful when using custom images)                                     | `[]`               |
 | `applicationSet.defaultArgs.metricsAddr`                           | Default metrics port                                                                                     | `:8080`            |
